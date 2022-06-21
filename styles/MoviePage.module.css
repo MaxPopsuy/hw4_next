@@ -1,0 +1,38 @@
+.movies__form {
+  margin: 20px;
+}
+.movies__input {
+  height: 31px;
+  border-radius: 5px;
+  height: 31px;
+  border: 3px solid #371B58;
+  padding: 8px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 15px;
+  transition: 0.5s all;
+}
+.movies_input:focus{
+  border: 2px solid #7858A6;
+}
+
+.movies__btn {
+  background-color: #7858A6;
+  color: #fff;
+  border: 0;
+  padding: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+  font-size: 16px;
+  
+
+}
+.movies__btn:active{
+  transform: scale(1.1);
+}
+
+.movies {
+  max-width: 1300px;
+  margin: 0 auto;
+}

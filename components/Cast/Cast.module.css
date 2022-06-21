@@ -1,0 +1,27 @@
+.cast__image{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+
+}
+.cast{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.cast__name{
+  background-color: #c4c4c4;
+  color: #7858A6;;
+  text-align: center;
+  /* margin: 10px 0 30px; */
+}
+.cast__wrapper{
+  font-family: "Helvetica Neue", sans-serif;
+  align-items: center;
+  background-color: #c4c4c4;
+  border: 3px solid #7858A6;
+  margin: 5px;
+}
